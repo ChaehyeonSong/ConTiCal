@@ -12,7 +12,7 @@ The only thing we need to prepare for calibration is a moniter.
   2. <a href="http://ceres-solver.org/installation.html">install ceres solver</a> 
   3. make workspace and launch .launch file
   ```
-  mkdir contical_ws/src
+  mkdir -p contical_ws/src
   cd contical_ws/src
   git clone https://github.com/ChaehyeonSong/ConTiCal/
   cd ..
