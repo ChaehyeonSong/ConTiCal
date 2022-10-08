@@ -22,9 +22,7 @@ reliable projection among thermal images and complete conic-
 based optimization for distortion coefficient inference. We
 further propose scale-invariant geometric losses, which are
 robust to the inherent thermal image problems in that they
-prevent severe image noise and pixel inaccuracy. As a result, our
-method outperforms the ROS-calibrator, demonstrating about
-10% error reduction.
+prevent severe image noise and pixel inaccuracy.
 
 ## How to run ConTi-Cal in ros?
   0. manufacture the calibration target using the stl file in target folder
