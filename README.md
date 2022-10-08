@@ -26,7 +26,6 @@ prevent severe image noise and pixel inaccuracy. As a result, our
 method outperforms the ROS-calibrator, demonstrating about
 10% error reduction.
 
-
 ## How to run ConTi-Cal in ros?
   0. manufacture the calibration target using the stl file in target folder
   1. <a href="http://wiki.ros.org/melodic/Installation/Ubuntu">install ros</a> (melodic version is recommended) 
@@ -42,4 +41,5 @@ method outperforms the ROS-calibrator, demonstrating about
   roslanch contical contical.launch
   ```
 ## Demonstration
-![30second](https://user-images.githubusercontent.com/106569301/194704215-5bc76acd-ad49-4427-b116-de5cc4ccab73.gif)
+![12s](https://user-images.githubusercontent.com/106569301/194704702-db19ea73-7ec0-4402-9823-36763c5ce042.gif)
+
