@@ -1,8 +1,8 @@
 # ConTi-Cal : Conic-based Thermal-infrared camera Calibration considering distortion parameter
 
-ConTi-Cal is the fast and efficient conic based calibration method for thermal-infrared camera using the portable buttonhole shape target. 
+ConTi-Cal is the fast and efficient conic-based calibration method for thermal-infrared camera using the portable buttonhole shape target. 
 
-The only thing we need to prepare for calibration is a moniter.
+The only thing need for calibration is a monitor.
 
 **The code will be released after the review session**
 
