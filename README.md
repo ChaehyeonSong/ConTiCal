@@ -6,6 +6,27 @@ The only thing we need to prepare for calibration is a moniter.
 
 **The code will be released after the review session**
 
+## Abstract
+Intrinsic calibration is an essential phase in uti-
+lizing imaging sensor geometry. Unfortunately, traditional cal-
+ibration necessitates a sophisticated procedure when applied
+to thermal infrared (TIR) cameras. Furthermore, inherent
+blunt and obscure thermal imaging boundaries hinder precise
+detection, causing low calibration accuracy. To tackle these
+challenges, we propose a novel approach to thermal camera
+calibration exploitation based on conic. Existing conic-based
+methods are limited to intrinsic parameter estimation because
+conic does not hold the property under distortion. To mitigate
+this issue, we introduce undistorted conic reconstruction for
+reliable projection among thermal images and complete conic-
+based optimization for distortion coefficient inference. We
+further propose scale-invariant geometric losses, which are
+robust to the inherent thermal image problems in that they
+prevent severe image noise and pixel inaccuracy. As a result, our
+method outperforms the ROS-calibrator, demonstrating about
+10% error reduction.
+
+
 ## How to run ConTi-Cal in ros?
   0. manufacture the calibration target using the stl file in target folder
   1. <a href="http://wiki.ros.org/melodic/Installation/Ubuntu">install ros</a> (melodic version is recommended) 
@@ -20,4 +41,5 @@ The only thing we need to prepare for calibration is a moniter.
   source devel/setup.bash
   roslanch contical contical.launch
   ```
-## Circle detection examples
+## Demonstration
+![30second](https://user-images.githubusercontent.com/106569301/194704215-5bc76acd-ad49-4427-b116-de5cc4ccab73.gif)
