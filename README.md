@@ -7,22 +7,8 @@ The only thing need for calibration is a monitor.
 **The code will be released after the review session**
 
 ## Abstract
-Intrinsic calibration is an essential phase in uti-
-lizing imaging sensor geometry. Unfortunately, traditional cal-
-ibration necessitates a sophisticated procedure when applied
-to thermal infrared (TIR) cameras. Furthermore, inherent
-blunt and obscure thermal imaging boundaries hinder precise
-detection, causing low calibration accuracy. To tackle these
-challenges, we propose a novel approach to thermal camera
-calibration exploitation based on conic. Existing conic-based
-methods are limited to intrinsic parameter estimation because
-conic does not hold the property under distortion. To mitigate
-this issue, we introduce undistorted conic reconstruction for
-reliable projection among thermal images and complete conic-
-based optimization for distortion coefficient inference. We
-further propose scale-invariant geometric losses, which are
-robust to the inherent thermal image problems in that they
-prevent severe image noise and pixel inaccuracy.
+Applying traditional calibration to thermal infrared (TIR) cameras requires extra equipment or an expensive target. Furthermore, the thermal images often include low resolution, high distortion, and sharp boundaries that may lead to inaccurate calibration results.
+To overcome these limits, we propose a novel approach to thermal camera calibration exploitation based on conic. We introduce undistorted conic reconstruction for reliable projection among thermal images and complete conic-based optimization for distortion coefficient inference. The proposed scale-invariant geometric losses are robust to the inherent thermal image problems in that they prevent severe image noise and pixel inaccuracy.
 
 ## How to run ConTi-Cal in ros?
   0. manufacture the calibration target using the stl file in target folder
