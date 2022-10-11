@@ -9,8 +9,6 @@ The only thing need for calibration is a monitor.
 
 ## Abstract
 Applying traditional calibration to thermal infrared (TIR) cameras requires extra equipment or an expensive target. 
-Furthermore, the thermal images often include low resolution, high distortion, 
-and sharp boundaries that may lead to inaccurate calibration results.
 To overcome these limits, we propose a novel approach to thermal camera calibration exploitation based on conic.
 We introduce undistorted conic reconstruction for reliable projection among thermal images 
 and complete conic-based optimization for distortion coefficient inference. 
